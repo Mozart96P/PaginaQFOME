@@ -80,6 +80,57 @@ header{
     height: 50px;
     background-color: #ffb00a;
     border-radius: 30px;
+    border-style: none;
     font-size: 20px;
+    font-family: acme;
+}
+/* ESTILIZAÇÃO PROMOS DA SEMANA */
+
+#space-promodasemana{
+    background-color: #f1f1f1;
+}
+#titulo-promodasemana{
+    font-size: 20px;
+    font-family: acme;
+    text-align: center;
+    padding-top: 20px;
+}
+#spacepromos{
+    display:flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+.promos{
+    width: 300px;
+    height: 400px;
+    background-color: #2525252a;
+}
+.titulopromo{
     font-family: helvetica;
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.fotopromo{
+    display: block;
+    margin: auto;
+}
+.descricaopromo{
+    font-family:Helvetica, sans-serif;
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom:20px ;
+}
+.btnpromo{
+    font-family: helvetica;
+    font-weight: 550;
+    width: 120px;
+    height: 35px;
+    cursor: pointer;
+    display:block;
+    margin: 0 auto;
+    background-color: #ffb00a;
+    border-style: none;
+    border-radius: 20px;
+    box-shadow: 2px 3px rgba(0, 0, 0, 0.527);
 }
