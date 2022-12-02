@@ -87,7 +87,10 @@ header{
 /* ESTILIZAÇÃO PROMOS DA SEMANA */
 
 #space-promodasemana{
+    width: 100%;
+    height: 500px;
     background-color: #f1f1f1;
+    position: relative;
 }
 #titulo-promodasemana{
     font-size: 20px;
@@ -101,6 +104,7 @@ header{
     justify-content: space-around;
 }
 .promos{
+    margin-top: 10px;
     width: 300px;
     height: 400px;
     background-color: #2525252a;
@@ -109,7 +113,6 @@ header{
     font-family: helvetica;
     text-align: center;
     margin-top: 10px;
-    margin-bottom: 10px;
 }
 .fotopromo{
     display: block;
@@ -133,4 +136,16 @@ header{
     border-style: none;
     border-radius: 20px;
     box-shadow: 2px 3px rgba(0, 0, 0, 0.527);
+}
+#btn-anterior{
+    position: absolute;
+    top:48%;
+    left: 10px;
+    cursor: pointer;
+}
+#btn-proximo{
+    position: absolute;
+    top:48%;
+    right: 10px;
+    cursor: pointer;
 }
