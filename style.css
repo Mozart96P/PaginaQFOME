@@ -155,7 +155,8 @@ header{
 /* ESTILIZAÇÃO QUEM SOMOS */
 #space-quemsomos{
     width: 100%;
-    height: 460px;
+    height: 350px;
+    
 }
 #titulo-quemsomos{
     font-family: helvetica;
@@ -179,7 +180,8 @@ header{
 
 #img-ondas{
     width: 100%;
-    position: absolute; 
+    position: relative;
+    top: 45px; 
 }
 /* ESTILIZANDO NOSSOS DIFERENCIAIS */
 #space-nossosdiferenciais{
@@ -200,7 +202,7 @@ header{
     font-size: 24px;
     color: #ffb00a;
     text-align: center;
-    padding-top: 40px;
+    padding-top: 50px;
 }
 .nossosdiferenciais-opcoes{
     width: 300px;
@@ -222,4 +224,29 @@ header{
 .descricao-opcoes{
     font-family:helvetica;
     text-align: center;
+}
+/* ESTILIZANDO CADASTRO / junte-se a nós */
+#space-junteseanos{
+    background-color: red;
+    display: flex;
+    flex-direction: row;
+}
+#papelparede{
+    width: 795px;
+    height: 490px;
+    background-color: #ffb10ad3;
+    position: absolute;
+}
+#space-juntese-img{
+    position: relative;
+}
+#space-juntese-img p{
+    width: 600px;
+    font-size: 24px;
+    font-family: helvetica;
+    font-weight: 550;
+    color: #f1f1f1;
+    position: absolute;
+    top: 230px;
+    left: 70px;
 }
