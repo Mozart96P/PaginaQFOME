@@ -227,13 +227,12 @@ header{
 }
 /* ESTILIZANDO CADASTRO / junte-se a nós */
 #space-junteseanos{
-    background-color: red;
     display: flex;
     flex-direction: row;
 }
 #papelparede{
     width: 795px;
-    height: 490px;
+    height: 494px;
     background-color: #ffb10ad3;
     position: absolute;
 }
@@ -249,4 +248,45 @@ header{
     position: absolute;
     top: 230px;
     left: 70px;
+}
+#space-juntese-cadastro{
+    background-color: #f1f1f1;
+}
+#space-juntese-cadastro > p{
+    font-family: helvetica;
+    font-weight: 550;
+    font-size: 20px;
+}
+#campos-cadastro{
+
+}
+.inserirdados-campos{
+    width: 380px;
+    height: 30px;
+    background-color: #ffb00a;
+    border-style: none;
+}
+.inserirdados-campos-fale{
+    width: 380px;
+    height: 100px;
+    background-color: #ffb00a;
+    border-style: none;
+}
+.inserirdados-campos::placeholder{
+    font-size: 16px;
+    color: #252525;
+    padding-left: 15px;
+}
+.inserirdados-campos-fale::placeholder{
+    font-size: 16px;
+    color: #252525;
+    padding-left: 15px;
+}
+#btn-enviar{
+    width: 125px;
+    height: 30px;
+    border-radius: 20px;
+    border-style: none;
+    background-color: #252525;
+    color: #ffb00a;
 }
